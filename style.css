@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:white;
+    margin: 0;
+}
+
+.Container{
+    width: 70%;
+    margin: 30px auto;
+    background:white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    color:grey;
+    text-align: center;
+}
+
+h2 {
+    color: blue;
+}
+
+p, li {
+    font-size: 18px;
+}
+
+ul {
+    padding-left: 20px;
+}
