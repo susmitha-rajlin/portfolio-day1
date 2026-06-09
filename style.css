@@ -1,30 +1,57 @@
 body {
     font-family: Arial, sans-serif;
-    background-color:white;
     margin: 0;
+    background-color: #f4f4f4;
 }
 
-.Container{
-    width: 70%;
-    margin: 30px auto;
-    background:white;
-    padding: 20px;
-    border-radius: 10px;
-}
-
-h1 {
-    color:grey;
+header {
+    background-color: #333;
+    color: white;
+    padding: 15px;
     text-align: center;
 }
 
-h2 {
-    color: blue;
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
 }
 
-p, li {
-    font-size: 18px;
+.hero {
+    text-align: center;
+    padding: 60px;
+    background-color: #4a90e2;
+    color: white;
 }
 
-ul {
-    padding-left: 20px;
+button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+section {
+    padding: 20px;
+}
+
+.card {
+    background: white;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
 }
